@@ -22,9 +22,11 @@ h1, h2,
     color: #252525;
  }
 
- {
-    #logo: float-left;
+ 
+    #logo: {
+    float-left;
     font-size: 280%;
+    margin-left:30px;
  }
 
  /*Navigation links/*
@@ -61,7 +63,7 @@ h1, h2,
          height:600px;
         width:100%;
         overflow: hidden;
-        
+
         position:relative;
     }
 
@@ -80,6 +82,7 @@ h1, h2,
         animation-duration:5s;
         animation-fill-mode:forwards;
     }
+    
 
     /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
@@ -110,4 +113,28 @@ transform:scale(1.1);
     right: 150;
 
     position:absolute;
+}
+
+/*club etos*/
+#club-ethos {
+    height:600px;
+
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float:left;
+}
+
+#RIGHT-about{
+    padding-top: 30px;
+    width: 33%;
+    float:right;
+}
+
+#center-about{
+
+    width: 33%;
+    margin: 0 auto;
 }
